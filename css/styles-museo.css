@@ -2,3 +2,27 @@ body{
     margin: 0;
     padding: 0;
   }
+  .logo{
+    display: flex;
+  }
+.nav-bar{
+ background-color: rgb(223, 222, 222);
+justify-items: center;
+width: 100%;
+
+}  
+ul{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  
+} 
+ul li a{
+  text-decoration: none;
+  list-style: none;
+}
+ul li{
+  list-style: none;
+}
