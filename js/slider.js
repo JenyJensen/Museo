@@ -1,6 +1,7 @@
 let imagenes = ["./imagenes/museo de noche.png",
                 "./imagenes/museo de noche 2.png",
-                "./imagenes/WhatsApp Image 2023-06-07 at 20.09.43.jpeg"
+                "./imagenes/WhatsApp Image 2023-06-07 at 20.09.43.jpeg",
+                "./imagenes/maqueta del fuerte.png"
                ];
 document.Imagen.src = imagenes [0];
 let flechaAnterior = document.querySelector(".flechaant");
