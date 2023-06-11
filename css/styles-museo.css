@@ -38,6 +38,7 @@ nav li a:visited {
   display: flex;
   justify-content: center;
   padding: 2%;
+  text-align:justify ;
 }
 h2 {
   text-align: center;
@@ -52,4 +53,8 @@ footer {
   color: white;
   height: 2rem;
   padding: 1% 0% 0% 0%;
+}
+.imagenes-ruta{
+  margin-left: 20%;
+
 }
