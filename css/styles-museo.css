@@ -1,4 +1,107 @@
-body{
-    margin: 0;
-    padding: 0;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav-bar {
+  background-color: rgb(223, 222, 222);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+nav li a:visited {
+  color: black;
+  /* Color de los enlaces visitados */
+}
+.el-fuerte {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  text-align:justify ;
+}
+h2 {
+  text-align: center;
+}
+nav li a:hover {
+  border: solid 2px white;
+  padding: 3px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 2rem;
+  padding: 1% 0% 0% 0%;
+}
+.imagenes-ruta{
+  margin-left: 20%;
+
+}
+form {
+  max-width: 400px;
+  margin: 5%auto;
+  
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos CSS para la información del museo */
+.museo-info {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+}
+
+.museo-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.museo-info p {
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 30%;
+
+}
+.img-text{
+  margin-left: 20%;
+  width: 800px;
+}

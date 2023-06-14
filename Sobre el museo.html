@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre El Museo</title>
+    <link rel="stylesheet" href="./css/styles-museo.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <div class="imagen-logo">
+            <img src="imagenes/logo museo.png" alt="logo del museo" />
+          </div>
+          <nav class="nav-bar" role="navigation">
+            <!-- <ul> -->
+            <li><a href="index.html" target="_self">Inicio</a></li>
+            <li><a href="Ruta.html" target="_self">Ruta sanmartiniana</a></li>
+            <li><a href="arqueologia.html" target="_self">Arqueologia</a></li>
+            <li>
+              <a href="Evangelizacion.html" target="_self">Evangelización</a>
+            </li>
+            <li><a href="Fuerte.html" target="_self">Fuerte de defensa</a></li>
+            <li>
+              <a href="Sobre el museo.html" target="_self">Sobre el museo</a>
+            </li>
+            <!-- </ul> -->
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="museo-info">
+          <h2>Información del Museo</h2>
+          <p>Correo electrónico: muceodelfuertedesancarlos@gmail.com</p>
+          <p>Teléfono: +542622451002</p>
+          <p>Horario: Lun a Sab 09:00 a 12:00</p>
+          <p>Martes, Jueves y Sábado 15:00 a 18:00</p>
+          <p>Entrada libre y gratuita</p>
+          <p>Visitas guiadas</p>
+          <p>Cantidad de objetos: 50</p>
+          <p>Fecha de creación: 1982</p>
+        </div>
+        <h2>CONSULTANOS</h2>
+        <form action="enviar.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        
+          <label for="consulta">Consulta:</label>
+          <textarea id="consulta" name="consulta" rows="4" required></textarea>
+        
+          <button type="submit">Enviar</button>
+        </form>
+        <div>
+            
+        </div>
+
+      </main>
+      <footer>
+        Esta pagina se creo por un grupo de programadores amateur, a pedido de
+        Lucia Quintal, como proyecto de estudio.
+      </footer>
+</body>
+</html>
