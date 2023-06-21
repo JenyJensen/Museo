@@ -4,10 +4,11 @@ body{
 }
 .slider {
   background-color: black;
-  height: auto;
+  height: 550px;
   position: relative;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .flechasig p {
  font-size: 30px;
@@ -23,5 +24,41 @@ body{
   color: gray;
   margin-top: 1500%;
 }
+#img{
+  width:1000px ;
+  height: 550px;
+}
+@media (max-width:1000px) {
+  #img{
+    width: 500px;
+    height: 275px;
+  }
+  .slider {
+    height: 275px;
+  }
+  .flechasig p {
+    margin-top: 700%;
+   }
+   .flechaant p{
+     margin-top: 700%;
+   }
 
-
+}
+@media (max-width:530px) {
+  #img{
+  width: 250px;
+  height: 200px;
+}
+.slider {
+  height: 275px;
+}
+.slider {
+  height: 200px;
+}
+.flechasig p {
+  margin-top: 450%;
+ }
+ .flechaant p{
+   margin-top: 450%;
+ }
+}

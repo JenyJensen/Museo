@@ -37,5 +37,23 @@ function moverAutomatico(){
     document.Imagen.src = imagenes [contador]
 }
 
+// let tamanioImagenes = document.querySelector('#img')
 
+// // Función para cambiar el tamaño de la imagen
+// function cambiarTamañoImagen() {
+//   // Verifica el ancho de la ventana
+//   var anchoVentana = window.innerWidth; 
+//   // Si el ancho de la ventana es menor que un valor específico (por ejemplo, 600 píxeles), cambia el tamaño de la imagen
+//   if (anchoVentana < 600) {
+//     tamanioImagenes.style.height = "200px"
+//     tamanioImagenes.style.width = "400px"; // Cambia el ancho de la imagen a 200 píxeles (ajústalo según tus necesidades)
+//   } else {
+//     tamanioImagenes.style.height = "550px"
+//     tamanioImagenes.style.width = "1000px"; // Restablece el ancho de la imagen a 400 píxeles (ajústalo según tus necesidades)
+//   }
+// }
+// // Asocia el evento resize a la función cambiarTamañoImagen
+// window.addEventListener("resize", cambiarTamañoImagen);
+// // Llama a la función por primera vez para ajustar el tamaño inicial de la imagen
+// cambiarTamañoImagen();
 
