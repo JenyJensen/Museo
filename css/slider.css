@@ -46,19 +46,17 @@ body{
 }
 @media (max-width:530px) {
   #img{
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
 }
+
 .slider {
-  height: 275px;
-}
-.slider {
-  height: 200px;
+  height: 250px;
 }
 .flechasig p {
-  margin-top: 450%;
+  margin-top: 600%;
  }
  .flechaant p{
-   margin-top: 450%;
+   margin-top: 600%;
  }
 }
